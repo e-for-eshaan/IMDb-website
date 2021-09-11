@@ -30,7 +30,7 @@ function popMovies() {
       let movies = response.data.results;
       let output = "";
       $.each(movies, (index, movie) => {
-        let imgpath = "http://image.tmdb.org/t/p/" + "w185" + movie.poster_path;
+        let imgpath = "https://image.tmdb.org/t/p/" + "w185" + movie.poster_path;
         output += `
         <a onClick="tmdbClicker(${movie.id})" ><div class="ff-card">
           <div class="ff-images">
@@ -61,7 +61,7 @@ function theatreMovies() {
       $.each(movies, (index, movie) => {
         if (movie.poster_path != null) {
           let imgpath =
-            "http://image.tmdb.org/t/p/" + "w185" + movie.poster_path;
+            "https://image.tmdb.org/t/p/" + "w185" + movie.poster_path;
           output += `
         <a onClick="tmdbClicker(${movie.id})"><div class="ff-card">
           <div class="ff-images">
@@ -91,7 +91,7 @@ function dramas() {
       let movies = response.data.results;
       let output = "";
       $.each(movies, (index, movie) => {
-        let imgpath = "http://image.tmdb.org/t/p/" + "w185" + movie.poster_path;
+        let imgpath = "https://image.tmdb.org/t/p/" + "w185" + movie.poster_path;
         output += `
         <a onClick="tmdbClicker(${movie.id})"><div class="ff-card">
           <div class="ff-images">
@@ -150,7 +150,7 @@ function getNews() {
 
 function getMovies(searchText) {
   axios
-    .get("http://www.omdbapi.com/?s=" + searchText + "&apikey=f204c090")
+    .get("https://www.omdbapi.com/?s=" + searchText + "&apikey=f204c090")
     .then((response) => {
       console.log(response);
       let movies = response.data.Search;
@@ -202,7 +202,7 @@ function getTmdb() {
     .then((response) => {
       console.log(response);
       let movie = response.data;
-      let imgpath = "http://image.tmdb.org/t/p/" + "w300" + movie.poster_path;
+      let imgpath = "https://image.tmdb.org/t/p/" + "w300" + movie.poster_path;
       let output = `
       <div class="movie-container top">
       <div class="movie-image">
@@ -238,7 +238,7 @@ function getMovie() {
   let movieId = sessionStorage.getItem("movieId");
 
   axios
-    .get("http://www.omdbapi.com/?i=" + movieId + "&apikey=f204c090")
+    .get("https://www.omdbapi.com/?i=" + movieId + "&apikey=f204c090")
     .then((response) => {
       console.log(response);
       let movie = response.data;
