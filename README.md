@@ -1,4 +1,4 @@
-# IMDb Clone
+# [IMDb Clone](https://e-for-eshaan.github.io/IMDb-website/)
 
 This is a clone of IMDb, a popular online database of movies, TV shows, and celebrities. The project is built using jQuery, HTML, and CSS.
 
