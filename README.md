@@ -6,6 +6,18 @@ This is a clone of IMDb, a popular online database of movies, TV shows, and cele
 
 The IMDb Clone project aims to replicate some of the features and functionality of the original IMDb website. It retrieves movie data from the TMDB API and displays popular movies, theater movies, and dramas. It also fetches entertainment news from the News API and allows users to search for movies using the OMDb API.
 
+
+## Screenshots
+![image](https://github.com/e-for-eshaan/IMDb-website/assets/76566992/c0ae7408-40bd-4a11-bcd1-230c3b096335)
+*Caption: Example screenshot of the IMDb Clone homepage displaying popular movies.*
+<br/>
+<br/>
+<br/>
+<br/>
+![image](https://github.com/e-for-eshaan/IMDb-website/assets/76566992/e479f0a8-1ff5-4f6b-807b-3ca9f44ae76a)
+*Caption: Example screenshot of the IMDb Clone search results page.*
+
+
 ## Features
 
 - Displaying popular movies: The project retrieves a list of popular movies from the TMDB API and displays them on the home page. Each movie is represented as a card with an image and title.
@@ -56,14 +68,6 @@ This project is licensed under the [INSERT LICENSE NAME] license. See the LICENS
 5. Use the search form to search for specific movies.
 6. Click on a movie card to view detailed information about the movie.
 
-
-## Screenshots
-
-![Screenshot 1](dummy-image.png)
-*Caption: Example screenshot of the IMDb Clone homepage displaying popular movies.*
-
-![Screenshot 2](dummy-image.png)
-*Caption: Example screenshot of the IMDb Clone search results page.*
 
 ## Acknowledgments
 
