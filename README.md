@@ -21,20 +21,41 @@ The IMDb Clone project aims to replicate some of the features and functionality 
 - Movie details: Clicking on a movie card displays detailed information about the movie, including the title, release date, genre, votes, popularity, and plot.
 
 ## Project Structure
+IMDb Clone Project
 
-- `index.html`: The main HTML file that contains the structure of the IMDb Clone website.
+Project Structure:
+------------------
+- index.html: The main HTML file that serves as the entry point for the IMDb Clone website. It contains the structure and layout of the website's home page.
 
-- `styles.css`: The CSS file that defines the styles and layout of the website.
+- detailed.html: An additional HTML file that provides detailed information about a specific movie. It can be accessed by clicking on a movie's title or a related link on the home page.
 
-- `script.js`: The JavaScript file that includes the logic for fetching movie data from APIs, handling user interactions, and dynamically updating the webpage.
+- detailed2.html: Another HTML file that displays additional details about a different movie. This file allows users to explore more information about various movies.
+
+- styles.css: The CSS file that defines the visual styles and layout for the IMDb Clone website. It controls the appearance of different elements, such as text, colors, spacing, and positioning.
+
+- script.js: The JavaScript file that contains the logic and functionality for the IMDb Clone website. It handles tasks such as fetching movie data from APIs, managing user interactions, and dynamically updating the webpage content based on user actions.
+
+Usage:
+------
+
+Contributing:
+--------------
+This project is currently not open for contributions.
+
+License:
+--------
+This project is licensed under the [INSERT LICENSE NAME] license. See the LICENSE file for more information.
+
 
 ## Usage
 
-1. Clone the repository: `git clone https://github.com/your-username/imdb-clone.git`
-2. Open the `index.html` file in a web browser.
-3. Explore the IMDb Clone website to view popular movies, theater movies, dramas, and entertainment news.
-4. Use the search form to search for specific movies.
-5. Click on a movie card to view detailed information about the movie.
+1. Open the index.html file in a web browser to access the IMDb Clone website.
+2. Navigate through the home page to browse movies and click on a movie's title or related link to view detailed information.
+3. Explore detailed.html and detailed2.html to access additional details about different movies.
+4. Explore the IMDb Clone website to view popular movies, theater movies, dramas, and entertainment news.
+5. Use the search form to search for specific movies.
+6. Click on a movie card to view detailed information about the movie.
+
 
 ## Screenshots
 
